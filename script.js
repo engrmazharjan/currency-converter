@@ -13,16 +13,16 @@ function calculate() {
   const currency_two = amountEl_two.value;
 
   if (currencyEl_one.value === "CNY") {
-    let RUB = 11.41;
+    let RUB = 70.003307;
     const rate = currency_one * RUB;
 
-    rateEl.innerText = `1 RMB = ${RUB} RUB`;
+    rateEl.innerText = `1 ¥ = ${RUB} ₽`;
     amountEl_two.value = rate.toFixed(2);
   } else {
-    let RMB = 0.09;
+    let RMB = 0.0142857;
     const rate = currency_one * RMB;
 
-    rateEl.innerText = `1 RUB = ${RMB} RMB`;
+    rateEl.innerText = `1 ₽ = ${RMB} ¥`;
     amountEl_two.value = rate.toFixed(2);
   }
 
@@ -51,4 +51,4 @@ swap.addEventListener("click", () => {
   calculate();
 });
 
-calculate();
+// calculate();
