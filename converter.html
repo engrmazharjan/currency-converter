@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html
+  data-n-head-ssr
+  lang="en"
+  data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D"
+>
+  <head>
+    <meta data-n-head="ssr" charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt">
+      <!---->
+      <div id="__layout">
+        <div class="page-wrapper">
+          <main>
+            <div data-v-7842c132>
+              <section class="first-section" data-v-7842c132>
+                <div class="container" data-v-7842c132>
+                  <div class="right-col" data-v-7842c132>
+                    <div
+                      class="calculator-wrapper"
+                      data-v-1a5da084
+                      data-v-7842c132
+                    >
+                      <span class="calculator-wrapper__title" data-v-1a5da084
+                        >Калькулятор валют</span
+                      >
+                      <div class="input-block" data-v-1a5da084>
+                        <div class="input-wrapper" data-v-1a5da084>
+                          <label data-v-1a5da084
+                            ><span class="input-title" data-v-1a5da084
+                              >Меняю</span
+                            >
+                            <input
+                              type="number"
+                              placeholder="0"
+                              id="amount-one"
+                              inputmode="decimal"
+                              data-v-1a5da084
+                          /></label>
+
+                          <select id="currency-one">
+                            <option value="CNY">RMB</option>
+                          </select>
+                          <!-- <span id="currency1" class="currency" data-v-1a5da084
+                            >RMB</span
+                          > -->
+                        </div>
+
+                        <div
+                          id="change-currency-btn"
+                          class="change-currency-btn"
+                          data-v-1a5da084
+                        >
+                          <svg height="18" width="18" data-v-1a5da084>
+                            <use
+                              xlink:href="#change_currency_icn"
+                              data-v-1a5da084
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="input-wrapper" data-v-1a5da084>
+                          <label data-v-1a5da084
+                            ><span class="input-title" data-v-1a5da084
+                              >Получаю</span
+                            >
+                            <input
+                              type="number"
+                              placeholder="0"
+                              id="amount-two"
+                              inputmode="decimal"
+                              data-v-1a5da084
+                          /></label>
+                          <select id="currency-two">
+                            <option value="RUB">RUB</option>
+                          </select>
+                          <!-- <span id="currency1" class="currency" data-v-1a5da084
+                            >RUB</span
+                          > -->
+                        </div>
+                      </div>
+                      <!-- <span class="rate" data-v-1a5da084> 1 ¥ = 5.45 ₽ </span> -->
+                      <span class="rate" id="rate" data-v-1a5da084></span>
+
+                      <a href="/" class="anchor-btn" data-v-1a5da084
+                        ><span data-v-1a5da084>Оформить перевод</span></a
+                      >
+                    </div>
+                  </div>
+                  <div class="mobile-show" data-v-7842c132>
+                    <p class="text text-block" data-v-7842c132>
+                      Біз сізге мүмкіндігінше тезірек отбасыңыз бен достарыңызға
+                      ақша аударуға көмектесуге қуаныштымыз!
+                    </p>
+                    <div class="checkbox-block" data-v-7842c132>
+                      <div class="checkbox-block__item" data-v-7842c132>
+                        <svg height="24" class="img" data-v-7842c132>
+                          <use xlink:href="#icn_check" data-v-7842c132></use>
+                        </svg>
+                        <span class="text" data-v-7842c132
+                          >Трансферт саласында 7 жылдан астам жұмыс істеп
+                          келеміз</span
+                        >
+                      </div>
+                      <div class="checkbox-block__item" data-v-7842c132>
+                        <svg height="24" class="img" data-v-7842c132>
+                          <use xlink:href="#icn_check" data-v-7842c132></use>
+                        </svg>
+                        <span class="text" data-v-7842c132
+                          >Біз WesternUnion және MoneyGram сияқты ақшаны үйден
+                          шықпай-ақ жіберу мүмкіндігін береміз!</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </main>
+
+          <div class="svg-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <symbol
+                id="icn_check"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="12" cy="12" r="12" fill="#FFE07C"></circle>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M23.5525 3.93127C24.1428 4.51257 24.15 5.46229 23.5687 6.05253L12.7354 17.0525C12.1571 17.6397 11.2134 17.6504 10.622 17.0764L5.95529 12.547C5.36082 11.97 5.34665 11.0203 5.92363 10.4259C6.50061 9.83141 7.45025 9.81724 8.04471 10.3942L11.6428 13.8865L21.4313 3.94747C22.0126 3.35723 22.9623 3.34998 23.5525 3.93127Z"
+                  fill="#222222"
+                ></path>
+              </symbol>
+              <symbol
+                id="change_currency_icn"
+                width="18"
+                height="18"
+                viewBox="0 0 18 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.9769 1.48607C11.4805 0.0195879 8.75728 -0.136837 5.97209 0.782158C3.92957 1.44693 2.21723 2.67881 1 4.36037L2.48544 5.29888C3.47569 3.91054 4.87868 2.91341 6.54976 2.38544C8.57156 1.74019 10.7585 1.89661 12.6359 2.75698L11.3155 3.73464L18 7L15.1117 0L13.9769 1.48607Z"
+                  fill="white"
+                ></path>
+                <path
+                  d="M4.02306 16.4944C6.51949 17.9609 9.24272 18.1173 12.0279 17.1983C14.0704 16.5336 15.7828 15.3017 17 13.6201L15.5146 12.6816C14.5243 14.0699 13.1213 15.0671 11.4502 15.595C9.42844 16.2403 7.2415 16.0839 5.36408 15.2235L6.68447 14.2458L0 11L2.88828 18L4.02306 16.4944Z"
+                  fill="white"
+                ></path>
+              </symbol>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="js/country-list.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
