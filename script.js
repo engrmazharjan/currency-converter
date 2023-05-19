@@ -27,7 +27,7 @@ function calculate() {
   }
 
   // fetch(
-  //   `https://v6.exchangerate-api.com/v6/61c7c32312c7e6c9667442ea/latest/${currency_one}`
+  //   `https://v6.exchangerate-api.com/v6/API_KEY/latest/${currency_one}`
   // )
   //   .then((res) => res.json())
   //   .then((data) => {
